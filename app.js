@@ -24,11 +24,8 @@ let displayData = (timeline) => {
                         <p>TITLE: ${timeline.Timeline[516].Title}</p>
                         <p>MEDIA: ${timeline.Timeline[516].Media}</p>
                         <p>DESCRIPTION: ${timeline.Timeline[516].Description}</p>
-                        <img src="https://arthurfrost.qflo.co.za/Images/CommunionThumb.jpg" alt=""/>
-                    
-                        
-                        <img src="https://arthurfrost.qflo.co.za/Images/CommunionIcon.jpg" alt=""/>
-
+                        <img style="width:70%; height: 50vh;" src="https://arthurfrost.qflo.co.za/Images/CommunionThumb.jpg" alt=""/><br/><br/>
+                        <img style="width:70%; height: 70vh;"  src="https://arthurfrost.qflo.co.za/Images/CommunionIcon.jpg" alt=""/><br/><br/>
                         <audio controls autoplay >
                             <source src="https://arthurfrost.qflo.co.za/MP3/v44FFKm6L8g.mp3" type="audio/ogg">
                         </audio>                
