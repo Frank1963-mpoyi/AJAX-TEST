@@ -26,8 +26,8 @@ let displayData = (timeline) => {
                         <p>DESCRIPTION: ${timeline.Timeline[516].Description}</p>
                         <img src="https://arthurfrost.qflo.co.za/Images/CommunionThumb.jpg" alt=""/>
                     
-                        <p>ICON: ${timeline.Timeline[516].Icon}</p>
-
+                        
+                        <img src="https://arthurfrost.qflo.co.za/Images/CommunionIcon.jpg" alt=""/>
 
                         <audio controls autoplay >
                             <source src="https://arthurfrost.qflo.co.za/MP3/v44FFKm6L8g.mp3" type="audio/ogg">
