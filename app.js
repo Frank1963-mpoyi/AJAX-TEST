@@ -28,10 +28,10 @@ let displayData = (timeline) => {
                     
                         <p>ICON: ${timeline.Timeline[516].Icon}</p>
 
-                        <audio controls>
-                        <source src="https://arthurfrost.qflo.co.za/MP3/v44FFKm6L8g.mp3" type="audio/v44FFKm6L8g.mp3">
-                        </audio>
-                        <p>AUDIO: ${timeline.Timeline[516].Audio}</p>
+
+                        <audio controls autoplay >
+                            <source src="https://arthurfrost.qflo.co.za/MP3/v44FFKm6L8g.mp3" type="audio/ogg">
+                        </audio>                
                         <p>REMOTE ID: ${timeline.Timeline[516].RemoteId}</p>
                         <p>STATUS: ${timeline.Timeline[516].Status}</p>
                         <p>IS ACTIVE: ${timeline.Timeline[516].isActive}</p>
